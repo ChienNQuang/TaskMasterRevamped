@@ -5,5 +5,5 @@ namespace Application.Common.Interfaces;
 
 public interface IApplicationDbContext
 {
-    public DbSet<Project> Projects { get; set; }
+    public DbSet<Project> Projects { get; }
 }

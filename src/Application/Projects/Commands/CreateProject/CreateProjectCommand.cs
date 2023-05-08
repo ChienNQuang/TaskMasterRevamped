@@ -44,6 +44,6 @@ public class CreateProjectCommandHandler : IRequestHandler<CreateProjectCommand,
 
         var result = await _context.Projects.AddAsync(entity);
 
-        return _mapper.Map<ProjectResult>(result);
+        return _mapper.Map<ProjectResult>(result.Entity);
     }
 }

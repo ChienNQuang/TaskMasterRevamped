@@ -2,8 +2,8 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/home/ezarp/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=046d0337_002D12c6_002D48f7_002D9790_002Db55c799933ba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnProject_WhenThatProjectExists" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::95479F4C-A6A6-4C0D-91B5-29230F31F0B9::net7.0::Application.IntegrationTests.Projects.Commands.CreateProjectTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=046d0337_002D12c6_002D48f7_002D9790_002Db55c799933ba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnProject_WhenThatProjectExists" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::95479F4C-A6A6-4C0D-91B5-29230F31F0B9::net7.0::Application.IntegrationTests.Projects.Commands.CreateProjectTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -363,6 +363,21 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Microsoft.Extensions.Options": "7.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "coverlet.collector/3.1.2": {},
       "Docker.DotNet/3.125.13": {
         "dependencies": {
@@ -1165,6 +1180,36 @@
           "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime/7.0.4": {
+        "dependencies": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "Npgsql.NodaTime": "7.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll": {
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.4.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll": {}
+        }
+      },
+      "Npgsql.NodaTime/7.0.4": {
+        "dependencies": {
+          "NodaTime": "3.1.9",
+          "Npgsql": "7.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.NodaTime.dll": {
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.4.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.NodaTime.dll": {}
+        }
+      },
       "NuGet.Frameworks/5.11.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -1943,7 +1988,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         },
         "compile": {
@@ -2005,6 +2050,7 @@
       "Api/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
@@ -2020,9 +2066,11 @@
       "Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Domain": "1.0.0",
           "MediatR": "12.0.1",
-          "Microsoft.EntityFrameworkCore": "7.0.5"
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"
         },
         "runtime": {
           "Application.dll": {}
@@ -2040,6 +2088,20 @@
         },
         "compile": {
           "Domain.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime": "7.0.4"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        },
+        "compile": {
+          "Infrastructure.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/7.0.0.0": {
@@ -3833,6 +3895,13 @@
       "path": "automapper/12.0.1",
       "hashPath": "automapper.12.0.1.nupkg.sha512"
     },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+g/K+Vpe3gGMKGzjslMOdqNlkikScDjWfVvmWTayrDHaG/n2pPmFBMa+jKX1r/h6BDGFdkyRjAuhFE3ykW+r1g==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
+    },
     "coverlet.collector/3.1.2": {
       "type": "package",
       "serviceable": true,
@@ -4231,6 +4300,20 @@
       "sha512": "sha512-ZYMtyG6pmLtUsFAx0/XaIlVkJM+1gArWEKD55cLLxiVlGScAphjiGj+G7Gk16yg5lhhdWx+bgXWpIUISXuS33g==",
       "path": "npgsql.entityframeworkcore.postgresql/7.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YY21XWQBrSfWnkiWuENTPMbqIr0gZw919T8Gj2CQK6eFgEYhWUk176UNYp31s/s1Bu0zJzbC4OAcgNB3igWiSg==",
+      "path": "npgsql.entityframeworkcore.postgresql.nodatime/7.0.4",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.nodatime.7.0.4.nupkg.sha512"
+    },
+    "Npgsql.NodaTime/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CdOL/MT4oug2DN/QxkqVsSFBj94P+Wtghkh2yv8Sx/qAjsYPzIGiOhSFxoEMMQ4cIGjC53+PJuNb01DsqOY77w==",
+      "path": "npgsql.nodatime/7.0.4",
+      "hashPath": "npgsql.nodatime.7.0.4.nupkg.sha512"
     },
     "NuGet.Frameworks/5.11.0": {
       "type": "package",
@@ -4915,6 +4998,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,3 +10,15 @@
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/refint/Domain.dll
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.pdb
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/ref/Domain.dll
+D:\TaskMasterRevamped\src\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\TaskMasterRevamped\src\Domain\bin\Debug\net7.0\Domain.dll
+D:\TaskMasterRevamped\src\Domain\bin\Debug\net7.0\Domain.pdb
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.dll
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\Domain.pdb
+D:\TaskMasterRevamped\src\Domain\obj\Debug\net7.0\ref\Domain.dll

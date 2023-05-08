@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace Api.Database;
+namespace Infrastructure.Persistence;
 
 public class DatabaseInitializer
 {

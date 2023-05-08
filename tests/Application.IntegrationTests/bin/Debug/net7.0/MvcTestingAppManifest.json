@@ -1,5 +1,6 @@
 {
-  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/ezarp\/learning\/dotnet\/TaskMasterRevamped\/src\/Api",
-  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/ezarp\/learning\/dotnet\/TaskMasterRevamped\/src\/Application",
-  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/ezarp\/learning\/dotnet\/TaskMasterRevamped\/src\/Domain"
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\TaskMasterRevamped\\src\\Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\TaskMasterRevamped\\src\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\TaskMasterRevamped\\src\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\TaskMasterRevamped\\src\\Infrastructure"
 }

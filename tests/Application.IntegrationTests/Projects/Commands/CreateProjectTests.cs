@@ -6,16 +6,11 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.IntegrationTests.Projects.Commands;
-
-public class CreateProjectTests : IClassFixture<CustomApiFactory>
+public class CreateProjectTests : BaseClassFixture
 {
-    private readonly IMediator _mediator;
-
-    public CreateProjectTests(CustomApiFactory apiFactory)
+    public CreateProjectTests(CustomApiFactory apiFactory) : base(apiFactory)
     {
-        _mediator = apiFactory.Services.GetRequiredService<IMediator>();
     }
-
     [Fact]
     public async Task ShouldReturnProject_WhenThatProjectExists()
     {
@@ -30,7 +25,7 @@ public class CreateProjectTests : IClassFixture<CustomApiFactory>
         };
         
         // Act
-        var result = await _mediator.Send(command);
+        var result = await SendAsync(command);
         
         // Assert
         result.Name.Should().Be(command.Name);
@@ -40,4 +35,6 @@ public class CreateProjectTests : IClassFixture<CustomApiFactory>
         result.StartDate.Should().Be(command.StartDate);
         result.EndDate.Should().Be(command.EndDate);
     }
+
+
 }
