@@ -1,0 +1,12 @@
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/bin/Debug/net7.0/Domain.deps.json
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/bin/Debug/net7.0/Domain.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/bin/Debug/net7.0/Domain.pdb
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/refint/Domain.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/Domain.pdb
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/obj/Debug/net7.0/ref/Domain.dll

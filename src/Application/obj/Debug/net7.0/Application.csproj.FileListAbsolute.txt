@@ -1,0 +1,15 @@
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/bin/Debug/net7.0/Application.deps.json
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/bin/Debug/net7.0/Application.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/bin/Debug/net7.0/Application.pdb
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/bin/Debug/net7.0/Domain.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/bin/Debug/net7.0/Domain.pdb
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/refint/Application.dll
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.pdb
+/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/ref/Application.dll

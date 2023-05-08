@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FfpkySRkJ1fjV9qvXOtkq6gsGV6pXQKHC+EOpkxOB8Tiht5hYMHAYttDNWw+QGwVZ2TyQ7FO6Ondn958mj1pGw==",
+  "success": true,
+  "projectFilePath": "/home/ezarp/learning/dotnet/TaskMasterRevamped/src/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/ezarp/.nuget/packages/nodatime/3.1.9/nodatime.3.1.9.nupkg.sha512",
+    "/home/ezarp/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
