@@ -7,12 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.5.2" />
       <PackageReference Include="NodaTime" Version="3.1.9" />
+      <PackageReference Include="ValueOf" Version="2.0.31" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Exceptions\" />
-      <Folder Include="ValueObjects\" />
+      <Compile Remove="Exceptions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Exceptions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Exceptions\**" />
     </ItemGroup>
 
 </Project>

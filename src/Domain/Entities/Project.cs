@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Enums;
+using Domain.ValueObjects;
 using NodaTime;
 
 namespace Domain.Entities;

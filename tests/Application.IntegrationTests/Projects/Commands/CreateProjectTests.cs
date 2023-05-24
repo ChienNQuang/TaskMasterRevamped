@@ -1,9 +1,6 @@
 using Application.Projects.Commands.CreateProject;
-using Application.Projects.Queries.GetProjectById;
 using Domain.Enums;
 using FluentAssertions;
-using MediatR;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.IntegrationTests.Projects.Commands;
 public class CreateProjectTests : BaseClassFixture
@@ -12,7 +9,7 @@ public class CreateProjectTests : BaseClassFixture
     {
     }
     [Fact]
-    public async Task ShouldReturnProject_WhenThatProjectExists()
+    public async Task ShouldCreateProject_WhenDataIsValid()
     {
         // Arrange
         var command = new CreateProjectCommand
@@ -35,6 +32,4 @@ public class CreateProjectTests : BaseClassFixture
         result.StartDate.Should().Be(command.StartDate);
         result.EndDate.Should().Be(command.EndDate);
     }
-
-
 }

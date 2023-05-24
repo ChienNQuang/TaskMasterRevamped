@@ -1,27 +1,40 @@
+using Application.Projects.Commands.CreateProject;
 using Application.Projects.Queries.GetProjectById;
-using MediatR;
-using Microsoft.Extensions.DependencyInjection;
+using FluentAssertions;
 
 namespace Application.IntegrationTests.Projects.Queries;
 
-public class GetProjectByIdTests : IClassFixture<CustomApiFactory>
+public class GetProjectByIdTests : BaseClassFixture
 {
-    private readonly IMediator _mediator;
 
-    public GetProjectByIdTests(CustomApiFactory apiFactory)
+    public GetProjectByIdTests(CustomApiFactory apiFactory) : base(apiFactory)
     {
-        _mediator = apiFactory.Services.GetRequiredService<IMediator>();
     }
 
     [Fact]
     public async Task ShouldReturnProject_WhenThatProjectExists()
     {
-        
+        // Arrange
+        var ownerId = Guid.NewGuid();
+        var createCommand = new CreateProjectCommand
+        {
+            OwnerId = ownerId,
+            Name = "Abc",
+            Description = "123",
+            StartDate = DateTime.Today,
+            EndDate = DateTime.Today
+        };
+        var createdProject = await SendAsync(createCommand);
         var query = new GetProjectByIdQuery
         {
-            ProjectId = Guid.NewGuid(),
-            UserId = Guid.NewGuid()
+            ProjectId = createdProject.Id,
+            UserId = ownerId
         };
-        var result = await _mediator.Send(query);
+        
+        // Act
+        var result = await SendAsync(query);
+
+        // Assert
+        result.Should().BeEquivalentTo(createdProject);
     }
 }

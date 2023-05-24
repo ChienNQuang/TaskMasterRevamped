@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "FluentValidation/11.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NodaTime/3.1.9": {
         "type": "package",
         "dependencies": {
@@ -30,10 +43,42 @@
             "related": ".xml"
           }
         }
+      },
+      "ValueOf/2.0.31": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidation/11.5.2": {
+      "sha512": "kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
+      "type": "package",
+      "path": "fluentvalidation/11.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.5.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "NodaTime/3.1.9": {
       "sha512": "EzjwDOtsETlXWBDE6qvTQqc3guP+9xrAOf9j1mHL++UD4VeZay+dbCPNnXyZhoQMkKAOZ/+hIOtz7STl0Rkknw==",
       "type": "package",
@@ -80,11 +125,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ValueOf/2.0.31": {
+      "sha512": "nEyKZGR8D1crnv2pcOCMhu4x0etnmjviJdP9OU33IfcRAfYibNYoGFMUQzeEOJT7yrQ87t/y0VCsNiTRb6l2LQ==",
+      "type": "package",
+      "path": "valueof/2.0.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/ValueOf.dll",
+        "lib/netstandard2.0/ValueOf.dll",
+        "valueof.2.0.31.nupkg.sha512",
+        "valueof.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "NodaTime >= 3.1.9"
+      "FluentValidation >= 11.5.2",
+      "NodaTime >= 3.1.9",
+      "ValueOf >= 2.0.31"
     ]
   },
   "packageFolders": {
@@ -126,9 +186,17 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.5.2, )"
+          },
           "NodaTime": {
             "target": "Package",
             "version": "[3.1.9, )"
+          },
+          "ValueOf": {
+            "target": "Package",
+            "version": "[2.0.31, )"
           }
         },
         "imports": [

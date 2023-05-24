@@ -9,7 +9,7 @@ namespace Application.Projects.Queries.GetProjectById;
 public record GetProjectByIdQuery : IRequest<ProjectResult>
 {
     public Guid UserId { get; init; }
-    public Guid ProjectId { get; init; }
+    public Guid ProjectId { get; init; }    
 }
 
 public class GetProjectByIdQueryHandler : IRequestHandler<GetProjectByIdQuery, ProjectResult>
@@ -23,6 +23,7 @@ public class GetProjectByIdQueryHandler : IRequestHandler<GetProjectByIdQuery, P
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
 
+    
     public async Task<ProjectResult> Handle(GetProjectByIdQuery request, CancellationToken cancellationToken)
     {
         var project = await _context.Projects

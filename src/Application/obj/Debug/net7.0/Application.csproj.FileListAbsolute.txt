@@ -13,9 +13,6 @@
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/refint/Application.dll
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/Application.pdb
 /home/ezarp/learning/dotnet/TaskMasterRevamped/src/Application/obj/Debug/net7.0/ref/Application.dll
-D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.deps.json
-D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.dll
-D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.pdb
 D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Domain.dll
 D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Domain.pdb
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
@@ -24,6 +21,9 @@ D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.AssemblyInfoI
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.deps.json
+D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.dll
+D:\TaskMasterRevamped\src\Application\bin\Debug\net7.0\Application.pdb
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.dll
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\refint\Application.dll
 D:\TaskMasterRevamped\src\Application\obj\Debug\net7.0\Application.pdb

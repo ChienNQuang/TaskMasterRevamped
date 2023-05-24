@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2J8K4pXNKtUpq0hEkZ11Mw6f9hZfCBLdqQOwDk1rr1m5AcQgEi4VnVA4BuEwQFTfO5GwUORLqGzqpGrACZrnCg==",
+  "dgSpecHash": "eeT0PM43LM6uW7lMB3dnkngYHAh3qbD2ZGpOh2Kg4yCJmcX9txYpYyaGChkytFR5vG/E8wKQdiD/15tbaPFv8w==",
   "success": true,
   "projectFilePath": "D:\\TaskMasterRevamped\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ezarp\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Ezarp\\.nuget\\packages\\nodatime\\3.1.9\\nodatime.3.1.9.nupkg.sha512",
-    "C:\\Users\\Ezarp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+    "C:\\Users\\Ezarp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Ezarp\\.nuget\\packages\\valueof\\2.0.31\\valueof.2.0.31.nupkg.sha512"
   ],
   "logs": []
 }

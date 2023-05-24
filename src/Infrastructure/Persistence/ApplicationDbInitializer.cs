@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
 
 namespace Infrastructure.Persistence;
@@ -21,6 +23,8 @@ public class DatabaseInitializer
             if (_context.Database.IsNpgsql())
             {
                 await _context.Database.MigrateAsync();
+                var databaseCreator = (_context.Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator);
+                // await databaseCreator!.CreateTablesAsync();
             }
         }
         catch (Exception ex)
